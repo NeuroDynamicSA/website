@@ -1,0 +1,26 @@
+{
+  "name": "neurodynamic",
+  "version": "0.0.0",
+  "description": "NeuroDynamic - delivering technical excellence",
+  "author": "Rami AlGhanmi",
+  "license": "Proprietary",
+  "scripts": {
+    "create": "hugo new",
+    "dev": "hugo server --disableFastRender --noHTTPCache",
+    "format": "prettier **/** -w -c",
+    "build": "hugo --minify --gc",
+    "preview": "vite preview --outDir public"
+  },
+  "dependencies": {
+    "@thulite/images": "^3.3.1",
+    "@thulite/seo": "^2.4.1",
+    "thulite": "^2.6.3"
+  },
+  "devDependencies": {
+    "prettier": "^3.6.2",
+    "vite": "^7.0.6"
+  },
+  "engines": {
+    "node": ">=20.11.0"
+  }
+}
