@@ -3,15 +3,12 @@
     "tags": [
       "base",
       "body",
-      "code",
-      "h1",
       "head",
       "html",
       "img",
       "link",
       "meta",
       "noscript",
-      "p",
       "script",
       "style",
       "title"
@@ -22,8 +19,6 @@
       "lazyload",
       "single"
     ],
-    "ids": [
-      "congrats-on-setting-up-a-new-thulite-project"
-    ]
+    "ids": null
   }
 }
