@@ -1,6 +1,33 @@
-.env
-.netlify
+# Hugo generated content
+public/
+resources/
 .hugo_build.lock
-node_modules
-public
-resources
+
+# Node.js dependencies (if using npm for front-end assets)
+node_modules/
+
+# Node (optional)
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Sass/SCSS cache
+.sass-cache/
+
+# Env and secrets
+.env
+.env.*
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE/editor folders
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs
+*.log
