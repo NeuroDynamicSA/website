@@ -2,13 +2,12 @@
 ####################### Banner #########################
 banner:
   title : "We innovate locally to lead globally."
-  image : "images/banner-art.svg"
+  image : "images/banner.jpg"
   content : "At NeuroDynamic, we build solutions from the ground up. We own the technology, design it in-house, and activate it with national talent — delivering digital sovereignty for the Kingdom through global expertise and a local vision."
   button:
-    enable : false
+    enable : true
     label : "Contact Us"
     link : "/contact/"
-
 
 ########################## Clients Logo Slider #########################
 # clients_logo_slider:
@@ -42,17 +41,17 @@ feature:
   - name : "Cloud Architecture and Migration"
     icon : "fab fa-mixcloud"
     content : "We design scalable, cost-optimized solutions on AWS, Azure, and private cloud."
-    
+
   # feature item loop
   - name : "AI Infrastructure"
     icon : "far fa-dot-circle"
     content : "We create sustainable infrastructure powering AI workloads, including renewable-powered data centers."
-    
+
   # feature item loop
   - name : "Talent Development"
     icon : "fas fa-headphones-alt"
     content : "We transfer global expertise to Saudi engineers complemented by technical workshops to upskill your teams."
-      
+
 ######################### Intro Video #####################
 # intro_video:
 #   enable: true
@@ -61,8 +60,8 @@ feature:
 #   video_url: "https://www.youtube.com/embed/dyZcRRWiuuw"
 #   video_thumbnail: "images/video-popup.jpg"
 
-      
-      
+
+
 ######################### Service #####################
 service:
   enable : true
@@ -74,19 +73,19 @@ service:
   #   - "images/service-2.png"
   #   - "images/service-3.png"
   #   content : "Adipiscing elit Consequat tristique eget amet, tempus eu at consecttur. Leo facilisi nunc viverra tellus. Ac laoreet sit vel consquat. consectetur adipiscing elit. Consequat tristique eget amet, tempus eu at consecttur. Leo facilisi nunc viverra tellus. Ac laoreet sit vel consquat."
-      
+
   # service item loop
   - title : "Global Expertise, Saudi Roots"
     images:
     - "images/elements/light.png"
     content : "Rooted in Saudi Arabia with globally organized expertise."
-      
+
   # service item loop
   - title : "Cross Functional Capabilities"
     images:
     - "images/elements/brain.png"
     content : "full stack with enterprise and startup experience."
-      
+
   # service item loop
   - title : "Build, Operate and Transform"
     images:
@@ -104,13 +103,13 @@ service:
     images:
     - "images/elements/cloud.png"
     content : "Defense, Finance, Education, Energy, and Healthcare"
-       
+
 ################### Testimonials ########################
 # testimonials:
 #   enable: true
 #   title: "Trusted by those you trust"
 #   content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi egestas Werat viverra id et aliquet. vulputate egestas sollicitudin."
-  
+
 #   testimonials_quotes:
 #   - quote: "Lorem ipsum dolor amet, conseetur adipiscing elit. Ornare quam porta arcu congue felis volutpat. Vitae lectudbfs dolor faucibus"
 #     name: "Ryder Stewart"
@@ -146,7 +145,7 @@ service:
 #   - "images/tools/09.png"
 #   - "images/tools/10.png"
 
-  
+
 
 ##################### Call to action #####################
 call_to_action:
