@@ -2,7 +2,7 @@
 ####################### Banner #########################
 banner:
   title : "We innovate locally to lead globally."
-  image : "images/banner.jpg"
+  image : "images/banner-gpt.png"
   content : "At NeuroDynamic, we build solutions from the ground up. We own the technology, design it in-house, and activate it with national talent — delivering digital sovereignty for the Kingdom through global expertise and a local vision."
   button:
     enable : true
