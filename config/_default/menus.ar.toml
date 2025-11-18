@@ -1,0 +1,58 @@
+# main menu
+[[main]]
+name = "الرئيسية"
+url = "/"
+weight = 10
+
+[[main]]
+name = "من نحن"
+url = "/about/"
+weight = 20
+
+[[main]]
+name = "خدماتنا"
+url = "/services/"
+weight = 30
+
+[[main]]
+name = "تواصل معا"
+url = "/contact/"
+weight = 40
+
+# footer menu left
+[[footer_left]]
+name = "من نحن"
+url = "/about/"
+weight = 10
+
+[[footer_left]]
+name = "خدماتنا"
+url = "/services/"
+weight = 20
+
+[[footer_left]]
+name = "تواصل معا"
+url = "/contact/"
+weight = 30
+
+# footer menu middle
+[[footer_middle]]
+name = "صفحة١"
+url = "/products/product-3/"
+weight = 30
+
+[[footer_middle]]
+name = "صفحة ٢"
+url = "/products/product-4/"
+weight = 40
+
+# footer menu right
+[[footer_right]]
+name = "Privacy Policy"
+url = "/privacy-policy/"
+weight = 30
+
+[[footer_right]]
+name = "Terms & Conditions"
+url = "/terms-conditions/"
+weight = 40
