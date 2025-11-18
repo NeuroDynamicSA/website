@@ -1,6 +1,6 @@
 [build]
+  command = "hugo"
   publish = "public"
-  command = "yarn project-setup && yarn build"
 
 [build.environment]
   NODE_VERSION = "25.1.0"
