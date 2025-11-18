@@ -9,7 +9,7 @@ pagination.pagerSize = 6
 summaryLength = 10 # see https://gohugo.io/content-management/excerpts/
 
 # Language Settings
-disableLanguages = ["de", "cn"]
+disableLanguages = ["ar"]
 hasCJKLanguage = false
 
 ########################### Services #############################
@@ -119,7 +119,7 @@ light = "#EDF6F5"
 dark = "#1b2229"
 
 # font variables
-# base font size for full website, 
+# base font size for full website,
 font_size = "16px" # default is 16px
 
 # Font Scale Sizes

@@ -139,7 +139,7 @@
 
 
 <!-- theme switcher -->
-{{ if site.Params.theme_switcher }}
+{{ if or (site.Params.theme_switcher) (eq site.Params.theme_default "dark") }}
 <script>
   var darkMode = {{if eq site.Params.theme_default "dark"}}true{{else}}false{{end}};
   {{ if eq site.Params.theme_default "system" }}
