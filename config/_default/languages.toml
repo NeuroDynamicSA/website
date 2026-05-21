@@ -1,16 +1,23 @@
 ################################### English language #####################################
+
 [en]
 languageName = "EN"
 languageCode = "en-US"
 languageDirection = "ltr"
 contentDir = "content/english"
 weight = 10
+
 [en.params]
+
 ########### footer content ##########
+
 footer_menu_left = "Company"
 footer_menu_middle = "Products"
 footer_menu_right = "Support"
-footer_content = "Lorem ipsum dolor sit amet, consectetur elit consjat tristique eget amet."
+
+footer_content = "Enterprise infrastructure, DevOps operations, AI integration, and secure technology execution for modern organizations."
+
+################################### Arabic language #####################################
 
 [ar]
 languageName = "العربية"
@@ -18,9 +25,13 @@ languageCode = "ar-SA"
 languageDirection = "rtl"
 contentDir = "content/arabic"
 weight = 20
+
 [ar.params]
+
 ########### footer content ##########
+
 footer_menu_left = "الشركة"
 footer_menu_middle = "المنتجات"
 footer_menu_right = "الدعم"
-footer_content = "هذا محتوى فني"
+
+footer_content = "بنية تحتية مؤسسية، وعمليات DevOps، وتكامل الذكاء الاصطناعي، وتنفيذ تقني آمن للمؤسسات الحديثة."
