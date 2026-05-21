@@ -1,9 +1,9 @@
 ---
 ####################### Banner #########################
 banner:
-  title : "We innovate locally to lead globally."
+  title : "Enterprise infrastructure for national-scale operations."
   image : "images/banner-gpt.png"
-  content : "At NeuroDynamic, we build solutions from the ground up. We own the technology, design it in-house, and activate it with national talent — delivering digital sovereignty for the Kingdom through global expertise and a local vision."
+  content : "NeuroDynamic helps organizations design, operate, and modernize cloud, AI, and enterprise systems with secure infrastructure, operational governance, and Saudi-based execution capability."
   button:
     enable : true
     label : "Contact Us"
@@ -30,27 +30,24 @@ banner:
 ##################### Feature ##########################
 feature:
   enable : true
-  title : "We innovate locally to lead globally."
-  content : "At NeuroDynamic, we build solutions from the ground up. We own the technology, design it in-house, and activate it with national talent — delivering digital sovereignty for the Kingdom through global expertise and a local vision."
+  title : "Built for secure, scalable, and governed technology operations."
+  content : "We support enterprise and government organizations across cloud architecture, AI infrastructure, DevOps operations, integrations, and operational governance."
   button:
     enable : true
     label : "Contact Us"
     link : "/contact/"
   feature_item:
-  # feature item loop
-  - name : "Cloud Architecture and Migration"
+  - name : "Cloud Architecture & Migration"
     icon : "fab fa-mixcloud"
-    content : "We design scalable, cost-optimized solutions on AWS, Azure, and private cloud."
+    content : "Designing scalable cloud and hybrid environments across AWS, Azure, and private infrastructure."
 
-  # feature item loop
   - name : "AI Infrastructure"
     icon : "far fa-dot-circle"
-    content : "We create sustainable infrastructure powering AI workloads, including renewable-powered data centers."
+    content : "Building the operational foundation required to support AI workloads, automation, and modern data platforms."
 
-  # feature item loop
-  - name : "Talent Development"
+  - name : "Operational Governance"
     icon : "fas fa-headphones-alt"
-    content : "We transfer global expertise to Saudi engineers complemented by technical workshops to upskill your teams."
+    content : "Structuring monitoring, escalation, reporting, and coordination models for reliable enterprise operations."
 
 ######################### Intro Video #####################
 # intro_video:
@@ -60,49 +57,34 @@ feature:
 #   video_url: "https://www.youtube.com/embed/dyZcRRWiuuw"
 #   video_thumbnail: "images/video-popup.jpg"
 
-
-
 ######################### Service #####################
 service:
   enable : true
   service_item:
-  # service item loop
-  # - title : "It is the most advanced digital marketing company."
-  #   images:
-  #   - "images/service-1.png"
-  #   - "images/service-2.png"
-  #   - "images/service-3.png"
-  #   content : "Adipiscing elit Consequat tristique eget amet, tempus eu at consecttur. Leo facilisi nunc viverra tellus. Ac laoreet sit vel consquat. consectetur adipiscing elit. Consequat tristique eget amet, tempus eu at consecttur. Leo facilisi nunc viverra tellus. Ac laoreet sit vel consquat."
-
-  # service item loop
-  - title : "Global Expertise, Saudi Roots"
+  - title : "Saudi-Based Execution"
     images:
     - "images/elements/light.png"
-    content : "Rooted in Saudi Arabia with globally organized expertise."
+    content : "Local presence with global technical expertise for enterprise and government technology initiatives."
 
-  # service item loop
-  - title : "Cross Functional Capabilities"
+  - title : "Cross-Functional Capability"
     images:
     - "images/elements/brain.png"
-    content : "full stack with enterprise and startup experience."
+    content : "Cloud, DevOps, integrations, AI infrastructure, automation, and enterprise operations working as one system."
 
-  # service item loop
-  - title : "Build, Operate and Transform"
+  - title : "Build, Operate, and Transform"
     images:
     - "images/elements/gear-light.png"
-    content : "we deliver new tech with new ways of working"
+    content : "From architecture and implementation to governance, operations, and continuous improvement."
 
-  # service item loop
   - title : "Security and Reliability"
     images:
     - "images/elements/gear-hand.png"
-    content : "move fast without compromising"
+    content : "Operational models designed to support reliability, continuity, escalation, and controlled change."
 
-  # service item loop
-  - title : "Experience in Critical Sectors"
+  - title : "Critical Sector Experience"
     images:
     - "images/elements/cloud.png"
-    content : "Defense, Finance, Education, Energy, and Healthcare"
+    content : "Supporting technology environments across defense, finance, education, energy, healthcare, and logistics."
 
 ################### Testimonials ########################
 # testimonials:
@@ -126,7 +108,6 @@ service:
 #     designation: "CEO, Nexuspay"
 #     image: "images/avatar/04.jpg"
 
-
 ################### tools_intregrate ########################
 # tools_intregrate:
 #   enable : true
@@ -145,15 +126,13 @@ service:
 #   - "images/tools/09.png"
 #   - "images/tools/10.png"
 
-
-
 ##################### Call to action #####################
 call_to_action:
   enable : true
-  title : "Ready to get started?"
-  content : "We’re happy to hear from you! Our team is ready to answer your questions and help you with whatever you need. Contact us - let’s start a new story together."
+  title : "Ready to modernize your operations?"
+  content : "Connect with NeuroDynamic to discuss cloud infrastructure, AI operations, DevOps, integrations, and enterprise governance for your organization."
   button:
     enable : true
     label : "Contact Us"
-    link : "contact/"
+    link : "/contact/"
 ---

@@ -37,22 +37,32 @@ weight = 30
 
 # footer menu middle
 [[footer_middle]]
-name = "Page 1"
-url = "/page-1/"
+name = "Cloud Architecture"
+url = "/services/"
+weight = 10
+
+[[footer_middle]]
+name = "AI Infrastructure"
+url = "/services/"
+weight = 20
+
+[[footer_middle]]
+name = "DevOps Operations"
+url = "/services/"
 weight = 30
 
 [[footer_middle]]
-name = "Page 2"
-url = "/page-2/"
+name = "Operational Governance"
+url = "/services/"
 weight = 40
 
 # footer menu right
 [[footer_right]]
 name = "Privacy Policy"
 url = "/privacy-policy/"
-weight = 30
+weight = 10
 
 [[footer_right]]
 name = "Terms & Conditions"
 url = "/terms-conditions/"
-weight = 40
+weight = 20

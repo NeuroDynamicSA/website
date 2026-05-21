@@ -1,2 +1,201 @@
-// This file is empty within the template
-// You can use it to override CSS from within your project
+/* NeuroDynamic Phase 1 Polish */
+
+.banner {
+  padding-top: 110px !important;
+  padding-bottom: 80px !important;
+}
+
+.banner h1 {
+  font-size: 56px !important;
+  line-height: 1.05 !important;
+  letter-spacing: -1.5px !important;
+  font-weight: 700 !important;
+  max-width: 850px;
+  margin: 0 auto 24px;
+}
+
+.banner p {
+  font-size: 17px !important;
+  line-height: 1.75 !important;
+  opacity: 0.82;
+  max-width: 760px;
+  margin: 0 auto 32px;
+}
+
+.banner img {
+  border-radius: 18px;
+  max-width: 720px;
+}
+
+.feature-card {
+  background: rgba(8, 14, 22, 0.88) !important;
+  border: 1px solid rgba(255,255,255,0.06) !important;
+  border-radius: 18px !important;
+  padding: 32px !important;
+  transition: all 0.3s ease;
+}
+
+.feature-card:hover {
+  transform: translateY(-4px);
+  border-color: rgba(16, 198, 212, 0.35) !important;
+}
+
+.feature-card .icon {
+  font-size: 24px !important;
+  margin-right: 20px;
+}
+
+.feature-card h4 {
+  font-size: 22px !important;
+  line-height: 1.3;
+  margin-bottom: 14px;
+}
+
+.feature-card p {
+  font-size: 15px;
+  line-height: 1.75;
+  opacity: 0.75;
+}
+
+.section {
+  padding-top: 95px !important;
+  padding-bottom: 95px !important;
+}
+
+.service img {
+  max-width: 180px;
+}
+
+.service h2 {
+  font-size: 40px !important;
+  line-height: 1.15;
+  letter-spacing: -1px;
+  margin-bottom: 20px;
+}
+
+.service p {
+  font-size: 17px;
+  line-height: 1.85;
+  opacity: 0.78;
+  max-width: 680px;
+}
+
+.btn {
+  border-radius: 999px !important;
+  padding: 13px 30px !important;
+  font-weight: 600;
+}
+
+.footer {
+  padding-top: 80px !important;
+}
+
+.footer p,
+.footer li,
+.footer a {
+  opacity: 0.75;
+}
+
+@media (max-width: 767px) {
+  .banner {
+    padding-top: 85px !important;
+    padding-bottom: 55px !important;
+  }
+
+  .banner h1 {
+    font-size: 38px !important;
+    line-height: 1.1 !important;
+    letter-spacing: -1px !important;
+  }
+
+  .banner p {
+    font-size: 15px !important;
+    line-height: 1.75 !important;
+  }
+
+  .section {
+    padding-top: 72px !important;
+    padding-bottom: 72px !important;
+  }
+
+  .feature-card {
+    padding: 26px !important;
+  }
+
+  .feature-card h4 {
+    font-size: 20px !important;
+  }
+
+  .service img {
+    max-width: 130px;
+    margin-bottom: 28px;
+  }
+
+  .service h2 {
+    font-size: 30px !important;
+  }
+
+  .service p {
+    font-size: 15px;
+    line-height: 1.8;
+  }
+}
+/* PHASE 1 — Reduce giant feature icons */
+
+.service img,
+.feature img,
+.icon img,
+.section img:not(.banner img) {
+  width: 140px !important;
+  max-width: 100%;
+  height: auto;
+}
+
+@media (max-width: 767px) {
+
+.service img,
+.feature img,
+.icon img,
+.section img:not(.banner img) {
+  width: 72px !important;
+}
+
+.service {
+text-align: center;
+}
+
+.service h2{
+margin-top:18px;
+}
+
+}
+/* PHASE 1 FINAL MOBILE TIGHTEN */
+
+@media (max-width:767px){
+
+  .section{
+  padding-top:56px !important;
+  padding-bottom:56px !important;
+  }
+
+  .service{
+  padding-top:0 !important;
+  }
+
+  .banner{
+  padding-top:72px !important;
+  padding-bottom:42px !important;
+  }
+
+  .banner h1{
+  font-size:34px !important;
+  }
+
+  .service img,
+  .feature img,
+  .icon img,
+  .section img:not(.banner img){
+  width:72px !important;
+  }
+
+  }
